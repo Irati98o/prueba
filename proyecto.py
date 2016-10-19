@@ -1,11 +1,13 @@
 #Programa para hacer girar la Luna entorno a la Tierra
+import random
+import pygame
 def acelera (a, b):
 	return a/b	#Esto hay que mejorarlo
 
 dias = int(input("Introduce el tiempo total de la simulación (días): "))
 incremento = int(input("Introduce el incremento en cada paso del tiempo (s): "))
-mt = 5,972*10**24		#Masa de la Tierra
-ml = 7,349*10**22		#Masa de la Luna
+mt = 5.972*10**24		#Masa de la Tierra
+ml = 7.349*10**22		#Masa de la Luna
 
 
 while dias < 0 or incremento < 0:
