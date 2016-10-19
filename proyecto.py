@@ -1,6 +1,6 @@
 #Programa para hacer girar la Luna entorno a la Tierra
 def acelera (a, b):
-	return a+b
+	return a/b	#Esto hay que mejorarlo
 
 dias = int(input("Introduce el tiempo total de la simulación (días): "))
 incremento = int(input("Introduce el incremento en cada paso del tiempo (s): "))
